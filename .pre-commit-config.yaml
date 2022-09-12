@@ -51,7 +51,7 @@ repos:
             )
 
 -   repo: https://github.com/Lucas-C/pre-commit-hooks.git
-    rev: v1.1.12
+    rev: v1.3.1
     hooks:
     -   id: remove-tabs
 
@@ -61,7 +61,7 @@ repos:
     -   id: forbid-html-img-without-alt-text
 
 - repo: https://github.com/adrienverge/yamllint.git
-  rev: v1.27.1
+  rev: v1.28.0
   hooks:
   - id: yamllint
     files: \.(yaml|yml)$
